@@ -1,0 +1,96 @@
+% \documentclass[handout]{beamer}
+\documentclass{beamer}
+
+\usepackage{verbatim,multicol,amsmath,graphics, hyperref}
+\setlength{\columnsep}{1cm}
+
+\input{frontmatter}
+\input{commands}
+
+\title{CSTE/CDC 2018 Seasonal Influenza Forecasting Workshop}
+
+\newenvironment{remark}[1][Remark]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}]}{\end{trivlist}}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%% Title %%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\maketitle
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%% Past Season %%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Slide 1
+
+\section{Models}
+\begin{frame}
+\frametitle{Models}
+
+Past Model:
+\begin{itemize}
+\item Empirical Bayesian Hierarchical SIR model
+\item Hierarchy was on the seasons
+\item Empirical Bayes approach to speed up computation
+\item Works alright \\
+\end{itemize}
+
+\vspace{5mm}
+
+\pause
+New Model:
+\begin{itemize}
+\item Asymmetrical Gaussian functional form
+\item Hierarchy was on the seasons and regions
+\end{itemize}
+
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%% ASG %%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Slide 2
+
+\section{New Model}
+\begin{frame}
+\frametitle{Asymmetrical Gaussian Function Form}
+\begin{figure}[!ht]
+  \includegraphics[width=0.70\linewidth]{Figures/ASGFunctFormPlot.png}
+  % \caption{%Plot of the Asymmetrical Gaussian curve and its parameters placed according to their corresponding aspects.
+  % }
+  % \label{fig:ASGff}
+\end{figure}
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%% Benefits %%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Beneficial Ideas}
+\begin{frame}
+\frametitle{Beneficial Practices}
+
+\begin{itemize}
+\item Empirical Bayes to speed up computation
+\item Hierarchy structures are beneficial
+\item Automate as much as possible
+\end{itemize}
+
+\end{frame}
+
+
+
+
+\end{document}
