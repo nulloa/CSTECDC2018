@@ -63,7 +63,7 @@ New Model:
 
 \section{New Model}
 \begin{frame}
-\frametitle{Asymmetrical Gaussian Function Form}
+\frametitle{Asymmetrical Gaussian Functional Form}
 \begin{figure}[!ht]
   \includegraphics[width=0.70\linewidth]{Figures/ASGFunctFormPlot.png}
   % \caption{%Plot of the Asymmetrical Gaussian curve and its parameters placed according to their corresponding aspects.
